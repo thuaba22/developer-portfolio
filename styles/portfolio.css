@@ -87,9 +87,30 @@ nav a {
   margin-bottom: 30px;
 }
 /* main section:about section styles */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+.info-description{
+    color: #474747;
+    font-weight: bold;
+        
+}
+.info-title{
+    color: #757575 ;
+    font-weight: normal;
 }
